@@ -1044,11 +1044,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1007718779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86a1ae566e1ac424482dbd26a9f667a5, type: 3}
+  m_Script: {fileID: 11500000, guid: 309a723dd5b2e4f47a9a79131594726c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueBox
-  textDisplay: {fileID: 1427542069}
-  portrait: {fileID: 981728375}
 --- !u!1 &1021542959
 GameObject:
   m_ObjectHideFlags: 0
@@ -1112,10 +1110,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1021542959}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: decf4462b040c99448612b3fd08a686c, type: 3}
+  m_Script: {fileID: 11500000, guid: 02c28757ab0b94ba79f8d82d1c8475b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueTrigger
-  dialogue: {fileID: 11400000, guid: fe12511a6a76bdd4783f2294df5a1092, type: 2}
+  dialogueBox: {fileID: 1007718783}
+  dialogue: {fileID: 11400000, guid: 525bba900d7cb4b40bbe2eeaa72abdcb, type: 2}
 --- !u!1 &1249270027
 GameObject:
   m_ObjectHideFlags: 0
