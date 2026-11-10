@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 
 public class DialogueTrigger : MonoBehaviour
@@ -8,6 +9,17 @@ public class DialogueTrigger : MonoBehaviour
     private Dialogue dialogue;
    private void OnTriggerEnter(Collider other)
    {
-    
+      if (other.CompareTag("Player"))
+      {
+        dialogueBox.Display(dialogue);
+      }
    }
+
+   private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            dialogueBox.Hide();
+        }
+    }
 }

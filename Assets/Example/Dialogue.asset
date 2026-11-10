@@ -12,4 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bc8569bd2cbd4940afd220fd2ce7953, type: 3}
   m_Name: Dialogue
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
-  content: Thanks Mario But the Princess is in another castle
+  content: 'Thanks <color="red">Mario</color> !
+
+    But the Princess is in another
+    castle'
+  wordsPerMinute: 60
